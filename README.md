@@ -3,6 +3,8 @@ In this repository, I will be studying object detection more in depth.
 
 ## Basic I: IOU Calculation
 IOU, or intersection over union is an important evaluation metric in object detection.  
+<img src='https://github.com/sin1012/Object-Detection-Study/blob/main/od_images/iou_calcualtion.png' height=300 width=300> 
+
 A 2D bbox can be represented differently, but I prefer two corner representation. In specific, each bbox can be represented as `[x1, y1, x2, y2]`
 A simple example of IOU calculation of 2 bboxes:
 ```python
